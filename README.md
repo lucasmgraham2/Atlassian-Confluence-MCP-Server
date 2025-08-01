@@ -12,12 +12,12 @@ MCP server for creating Confluence documentation from code using the official At
 
 ## Setup
 
-1. Install dependencies:
+### 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Add to your MCP client configuration:
+### 2. Add to your MCP client configuration:
 
 For Q Developer:
 - Name: Atlassian
@@ -26,6 +26,7 @@ For Q Developer:
 - Arguments: \path\to\mcp\server\
 
 For Copilot (mcp.json):
+```json
 {
 	"servers": {
 		"atlassian-confluence": {
@@ -37,6 +38,7 @@ For Copilot (mcp.json):
 	},
 	"inputs": []
 }
+```
 
 
 ## Usage Examples
